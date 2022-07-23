@@ -1,0 +1,246 @@
+body {
+    background-color:lightblue;
+    margin: 0;
+}
+
+.body_container {
+    margin: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+a:active {
+    color:blue;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.hat {
+    background-color: aliceblue;
+    height: 60px;
+    padding-left: 15%;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+.brand {
+    background-color: blue;
+    width: 45px;
+    height: 35px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+    align-items: center;
+}
+
+.members {
+    background-color: rgb(78, 78, 209);
+    text-align: center;
+    border-radius: 10px;
+
+}
+.memb {
+    display: flex;
+    justify-content: center;
+}
+
+.members:hover {
+    background-color:  lightblue;
+    transition: 00.3s;
+}
+
+.boxmodel {
+   display: flex;
+   gap: 10px;
+   justify-content: space-around;
+}
+
+.username {
+    text-align: center;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wieners {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.member {
+    display: flex;
+    width: 150px;
+    border: solid darkblue;
+    border-radius: 30px;
+    justify-content: flex-start;
+    margin: 10px;
+    background-color: rgb(122, 222, 255);
+    transition: all ease-in 0.4s;
+    overflow-x: hidden;
+    border-radius: 75px;
+    white-space: nowrap;
+}
+
+.img {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.member:hover {
+    background-color: deepskyblue;
+    width: 350px;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    border: solid darkblue;
+    border-radius: 30px;
+    margin: 10px;
+    width: 600px;
+    padding-left: 20px;
+    /* text-align: center; */
+}
+
+.footer {
+    background-color: rgb(2, 100, 117);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footcolumn {
+    display: flex;
+}
+
+.links {
+    text-align: end;
+    padding-top: 140px;
+}
+
+.asd {
+    transition: width ease-in 1s;
+}
+
+.asd:hover {
+    width: 600px;
+}
+
+.footlink:hover {
+    color: rgb(97, 97, 97);
+    transition: 0.3s;
+}
+
+.page_block {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.avatar_block {
+    width: 320;
+    height: 510;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 300;
+    height: 400;
+    border-radius: 10px;
+}
+
+.sign {
+    width: 300;
+    height: 60;
+    background-color: rgb(78, 78, 209);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sign:hover {
+    background-color:  lightblue;
+    transition: 00.3s;
+}
+
+.information {
+    width: 1000;
+    height: 1100;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: start;
+
+}
+
+.name {
+    margin-left: 20px;
+}
+
+.bio {
+    margin: 20px;
+    display: flex;
+
+}
+
+.exercise {
+    width: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.meaning {
+    width: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.photos {
+    margin-left: 20px;
+}
+
+.album {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
