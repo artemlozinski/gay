@@ -1,0 +1,23 @@
+.input {
+    outline: none;
+    border: solid 2px var(--color-dark);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--color-dark);
+
+    height: calc(var(--font-medium) + 8px);
+    font-size: var(--font-medium);
+}
+
+.input-sm {
+    height: calc(var(--font-small) + 8px);
+    font-size: var(--font-small);
+}
+
+.input-lg {
+    height: calc(var(--font-large) + 8px);
+    font-size: var(--font-large);
+}
+
+.input:focus {
+    box-shadow: 0 0 10px var(--color-dark);
+}

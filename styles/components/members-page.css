@@ -1,0 +1,54 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.member {
+    display: flex;
+    width: 150px;
+    border: solid var(--color-deep);
+    border-radius: 30px;
+    justify-content: flex-start;
+    margin: 10px;
+    background-color: var(--color-primary);
+    transition: all ease-in 0.4s;
+    overflow-x: hidden;
+    border-radius: 75px;
+    white-space: nowrap;
+}
+
+.img {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.member:hover {
+    background-color: var(--color-secondary);
+    width: 350px;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    border: solid var(--color-deep);
+    border-radius: 30px;
+    margin: 10px;
+    width: 600px;
+    padding-left: 20px;
+
+}
+
+.description:hover {
+    background-color: var(--color-gay);
+    border: solid var(--color-gay);
+    transition: linear 0.4s;
+}

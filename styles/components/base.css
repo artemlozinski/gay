@@ -1,0 +1,107 @@
+body {
+    background-color: var(--color-primary);
+    margin: 0;
+}
+
+.body_container {
+    margin: 10px;
+}
+
+.brand {
+    background-color: var(--color-deep);
+    width: 45px;
+    height: 35px;
+    color: var(--color-light);
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+    align-items: center;
+
+}
+
+.brand:hover {
+    box-shadow: 0 0 5px var(--color-deep);
+    transition: box-shadow linear 0.3s;
+}
+
+.hat {
+    background-color: var(--color-light);
+    height: 60px;
+    padding-left: 15%;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+}
+
+a {
+    color: var(--color-dark);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: var(--color-gay);
+}
+
+a:visited {
+    color: var(--color-dark);
+}
+
+.wieners {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.memb {
+    display: flex;
+    justify-content: center;
+}
+
+.members {
+    background-color: var(--color-success);
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.members:hover {
+    background-color: var(--color-gay);
+    transition: 00.3s;
+}
+
+.footer {
+    background-color: var(--color-deep);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footcolumn {
+    display: flex;
+}
+
+.links {
+    text-align: end;
+    padding-top: 140px;
+}
+
+.footlink:hover {
+    color: var(--color-gay);
+    transition: 0.3s;
+}
+
+

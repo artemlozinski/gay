@@ -1,0 +1,53 @@
+.btn {
+    border: solid 2px var(--color-secondary);
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--color-secondary);
+    transition: box-shadow linear 0.3s;
+    cursor: pointer;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+}
+
+.btn:hover {
+    box-shadow: 0 0 7px var(--color-secondary);
+    background-color: var(--color-secondary);
+    transition: background-color 0.3s;
+}
+
+.btn:active {
+    border: solid 2px var(--color-deep);
+    transition: none;
+    box-shadow: 0 0 10px var(--color-deep);
+    background-color: var(--color-deep);
+    transition: background-color 0.3s;
+}
+
+.btn-sign {
+    width: 300;
+    height: 60;
+    background-color: var(--color-deep);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--color-deep);
+    transition: box-shadow linear 0.3s;
+    cursor: pointer;
+    
+}
+
+.btn-sign:hover {
+    background-color: var(--color-secondary);
+    transition: 00.3s;
+}
+
+.btn-sign:hover {
+    box-shadow: 0 0 7px var(--color-deep);
+}
+
+.btn-sign:active {
+    transition: none;
+    box-shadow: 0 0 10px var(--color-deep);
+}
