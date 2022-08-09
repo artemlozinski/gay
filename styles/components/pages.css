@@ -4,6 +4,11 @@
 
 }
 
+.card-block {
+    display: flex;
+    flex-direction: column;
+}
+
 .avatar_block {
     width: 320;
     height: 550;
@@ -37,12 +42,11 @@
 }
 
 .information {
-    width: 1000;
-    height: 1100;
+    width: 1000px;
+    height: 1070px;
     background-color: var(--color-light);
     border-radius: 10px;
     text-align: start;
-
 }
 
 .name {
@@ -71,4 +75,43 @@
     margin-left: 20px;
 }
 
+.img-top {
+    width: 260px;
+    overflow: hidden;
+}
 
+.img-top>img {
+    width: 260px;
+    height: 365px;
+    object-fit: cover;
+}
+
+.img-bottom {
+    width: 530px;
+}
+
+.img-bottom>img {
+    width: 530px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.card {
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: var(--color-light);
+}
+
+.card-img {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-img>img {
+    height: 400px;
+    object-fit: cover;
+}

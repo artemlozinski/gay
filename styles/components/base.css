@@ -16,7 +16,7 @@ body {
     justify-content: center;
     border-radius: 20%;
     align-items: center;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .brand:hover {
@@ -24,13 +24,16 @@ body {
     transition: box-shadow linear 0.3s;
 }
 
-.hat {
+.navbar {
     background-color: var(--color-light);
     height: 60px;
     padding-left: 15%;
     display: flex;
     align-items: center;
     gap: 300px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .head {
